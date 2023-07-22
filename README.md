@@ -27,7 +27,7 @@ and begins to increase its speed to increase reward.
 
 It is unclear if this problem is due to limitations of model free reinforcement learning - i.e. my model-free ppo is not \
 capable of predicting a best case straight trajectory, or if it is because of my choice to allow the model to predict the \
-variance of the distrubtion for the actionspace - i.e. manually decaying the variance over time could allow for more stable \
+variance of the distrubtion for the action space - i.e. manually decaying the variance over time could allow for more stable \
 action prediction in later training, since if my model is predicting high variance for turning in later traing, it will seem \
 like the car is randomly turning
 
