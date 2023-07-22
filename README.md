@@ -27,9 +27,9 @@ and begins to increase its speed to increase reward.
 
 It is unclear if this problem is due to limitations of model free reinforcement learning - i.e. my model-free ppo is not \
 capable of predicting a best case straight trajectory, or if it is because of my choice to allow the model to predict the \
-variance of the distrubtion for the action space - i.e. manually decaying the variance over time could allow for more stable \
-action prediction in later training, since if my model is predicting high variance for turning in later traing, it will seem \
-like the car is randomly turning
+variance of the distrubtion for the action space - i.e. manually decaying the variance over time could allow for more \
+stable  action prediction in later training, since if my model is predicting high variance for turning in later traing, it \
+will seem like the car is randomly turning
 
 ## How to run:
 First, follow all of the directions given by the [tmrl Trackmania Environment](https://github.com/trackmania-rl/tmrl) to set up the environment \
