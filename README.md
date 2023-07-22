@@ -17,7 +17,7 @@ these spaces represent acceleraction, deceleration, and left/right turning respe
 Since you should be able to do all actions simultaneously, i.e. floor the gas, break, and turn left, \
 I chose to implement the action sampling as sampling from a multivariate normal distribution, where the \
 neural network has the freedom to determine the mean and logvariance of each distrubtion - \
-given the current state - the current in game lidar measurements, as well as a history of lidar measurements
+given the current state - the current in-game lidar measurements, as well as a history of lidar measurements
 
 By creating a multivariate distribution to sample from, and having the current velocity as part of the observation \
 space, the neural network should be equipped to handle turning at different speeds and at different accelerations. \
